@@ -11,12 +11,13 @@ import UIKit
 class ProductsViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
 
     @IBOutlet weak var productsCollection: UICollectionView!
+    @IBOutlet weak var noProductsView: UIView!
     
     private(set) public var products = [Product]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        toggleNoProductsView()
         // Do any additional setup after loading the view.
     }
     
@@ -37,5 +38,12 @@ class ProductsViewController: UIViewController, UICollectionViewDelegate, UIColl
         return ProductCell()
     }
     
+    private func toggleNoProductsView() {
+        if products.count == 0 {
+            noProductsView.isHidden = false
+        } else {
+            noProductsView.isHidden = true
+        }
+    }
 
 }
