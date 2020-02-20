@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6BE88DA623FE2C7A008710B9 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE88DA523FE2C7A008710B9 /* ProductCell.swift */; };
+		6BE88DA823FE2D1C008710B9 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE88DA723FE2D1C008710B9 /* Product.swift */; };
 		6BF0FF4223FCCD70001DE73C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0FF4123FCCD70001DE73C /* AppDelegate.swift */; };
 		6BF0FF4423FCCD70001DE73C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0FF4323FCCD70001DE73C /* SceneDelegate.swift */; };
 		6BF0FF4623FCCD70001DE73C /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0FF4523FCCD70001DE73C /* CategoryViewController.swift */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6BE88DA523FE2C7A008710B9 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		6BE88DA723FE2D1C008710B9 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		6BF0FF3E23FCCD70001DE73C /* coder-swag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coder-swag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BF0FF4123FCCD70001DE73C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6BF0FF4323FCCD70001DE73C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				6BF0FF5A23FCD3F4001DE73C /* Category.swift */,
+				6BE88DA723FE2D1C008710B9 /* Product.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -96,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				6BF0FF5823FCD203001DE73C /* CategoryCell.swift */,
+				6BE88DA523FE2C7A008710B9 /* ProductCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -180,10 +186,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6BF0FF4623FCCD70001DE73C /* CategoryViewController.swift in Sources */,
+				6BE88DA823FE2D1C008710B9 /* Product.swift in Sources */,
 				6BF0FF5B23FCD3F4001DE73C /* Category.swift in Sources */,
 				6BF0FF4223FCCD70001DE73C /* AppDelegate.swift in Sources */,
 				6BF0FF5E23FCD578001DE73C /* DataService.swift in Sources */,
 				6BF0FF4423FCCD70001DE73C /* SceneDelegate.swift in Sources */,
+				6BE88DA623FE2C7A008710B9 /* ProductCell.swift in Sources */,
 				6BF0FF5923FCD203001DE73C /* CategoryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
