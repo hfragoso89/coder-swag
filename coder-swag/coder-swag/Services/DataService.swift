@@ -52,8 +52,8 @@ class DataService {
             return getShirts()
         case "HATS":
             return getHats()
-        case "HOODIES":
-            return getHoodies()
+        case "HODDIES":
+            return getHoddies()
         case "DIGITALGOODS":
             return getDigitalGoods()
         default:
@@ -65,7 +65,7 @@ class DataService {
         return hats
     }
     
-    private func getHoodies() -> [Product] {
+    private func getHoddies() -> [Product] {
         return hoddies
     }
     
